@@ -6,7 +6,7 @@ My own version of publishing setting script for `maven` and `bintray`, inspired 
 
 ### 1. Download script
 
-```
+```sh
 wget https://raw.githubusercontent.com/kt3k/maven-bintray-publish.gradle/v0.0.1/maven-bintray-publish.gradle
 ```
 
@@ -14,7 +14,7 @@ wget https://raw.githubusercontent.com/kt3k/maven-bintray-publish.gradle/v0.0.1/
 
 An example of home local gradle.properties (for sensitive data):
 
-```
+```properties
 signing.keyId=ABCD1234
 signing.password=t3k1t0
 signing.secretKeyRingFile=~/.gnupg/secring.gpg
@@ -27,7 +27,7 @@ bintray.apiKey=86f7e437faa5a7fce15Oooocb9eaeaea377667b8
 ```
 
 An example of project gradle.properties:
-```
+```properties
 version=1.2.3
 group=org.example.library
 
@@ -70,7 +70,7 @@ buildscript {
 
 ### 4. Publish
 
-```
+```sh
 ./gradlew uploadArchives # maven release
 ./gradlew bintray # bintray
 ```
