@@ -1,5 +1,7 @@
 ---
-version: 0.0.1
+version: 1.0.0
 files:
-  README.md: maven-bintray-publish.gradle v%.%.%
+  README.md:
+  - maven-bintray-publish.gradle v%.%.%
+  - v%.%.%/maven-bintray-publish.gradle
   maven-bintray-publish.gradle: script version = %.%.%

@@ -1,4 +1,4 @@
-// script version = 0.0.1
+// script version = 1.0.0
 
 apply plugin: 'signing'
 apply plugin: 'maven'
