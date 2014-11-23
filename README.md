@@ -1,5 +1,7 @@
 # maven-bintray-publish.gradle v1.0.0
 
+![MIT](http://img.shields.io/badge/license-MIT-red.svg?style=flat-square)
+
 My own version of publishing setting script for `maven` and `bintray`, inspired by [gradle-mvn-push](https://github.com/chrisbanes/gradle-mvn-push).
 
 # Usage
