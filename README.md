@@ -1,4 +1,4 @@
-# maven-bintray-publish.gradle v1.0.0
+# maven-bintray-publish.gradle v1.1.0
 
 ![MIT](http://img.shields.io/badge/license-MIT-red.svg?style=flat-square)
 
@@ -9,7 +9,7 @@ My own version of publishing setting script for `maven` and `bintray`, inspired 
 ### 1. Download script
 
 ```sh
-wget https://raw.githubusercontent.com/kt3k/maven-bintray-publish.gradle/v1.0.0/maven-bintray-publish.gradle
+wget https://raw.githubusercontent.com/kt3k/maven-bintray-publish.gradle/v1.1.0/maven-bintray-publish.gradle
 ```
 
 ### 2. Add values to `gradle.properties`
